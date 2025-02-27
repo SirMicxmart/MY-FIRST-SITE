@@ -1,0 +1,119 @@
+body {
+    margin:auto;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: rgb(248, 245, 245);
+    
+    }
+    .logo{
+        width: 20px;
+        height: 20px;
+        border-radius: 100px; 
+    }
+    .menu{
+        display: right;
+        justify-content: space-between;
+        align-items: center;
+        background-color: crimson;
+        position: relative;
+    }
+    header{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: -10px;
+        box-shadow: 0 4px 6px;
+        padding-left: 70px;
+        padding-right: 70px;
+    }
+    header img{
+        width: 300px;
+    }
+    section{
+        text-align: center;
+        margin: 50px;
+    }
+    .Me{
+        text-align: center;
+    }
+    nav{
+        display: flex;
+        flex-direction: column;
+        justify-content: right;
+        align-items: left;
+    }
+    .Menu{
+        display: flex;
+    }
+     li{
+        display: flex;
+        list-style: none;
+        margin: 30px; 
+    }
+    .Well h1{
+        text-align: center;
+    }
+    h6{
+        font-size: xx-large;
+        text-align: center;
+        margin-top: 10px;
+        font-size: 30px;
+    }
+    .Well p{
+        text-align: center;
+        font-size: large;
+        margin-top: -60px;
+    }
+    h2{
+        text-align: center;
+        margin-top: 20px;
+        font-size: 40px;
+    }
+    .socials h2{
+        text-align: center;
+        margin-top: 1px;
+        font-size: 40px;
+    }
+    .Me p{
+        text-align: center; 
+    }
+    .Me img{
+        width: 20%;
+        align-items: left;
+        
+    }
+    .Serve{
+        text-align: center;
+        margin-top: 10px;
+        margin-right: 30px;
+        margin-left: 30px;
+        display: flex;
+        justify-content: space-between;
+        border-radius: 20px;
+        padding-right: 30px;
+        padding-top: 30px;
+        background-color: aqua;
+    }
+    .pix{
+        border-radius: 20px;
+    }
+    .Chem{
+        display: table;
+    }    
+
+    .Photo{
+        display: table;
+    }   
+    ul{
+        display: flex;
+        align-items: center;
+    }
+    .Socials{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        box-shadow: 0 5px 15px;
+        margin: 10px;
+        font-size: larger;
+        font-style: italic;
+    }
